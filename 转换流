@@ -11,9 +11,6 @@ public class InputDemo { public static void main(String[] args) throws IOExcepti
 		w.write(new String(bys,0,len));
 		w.flush();
 	}
-	
-	
-	
 	//释放资源
 	s.close();
 	w.close();
